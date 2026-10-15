@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of a BSIT student">
+    <title>Your Name | BSIT Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================================
+         NAVIGATION BAR
+         ============================================ -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Your Name</a>
+
+            <!-- Hamburger button (shows on mobile) -->
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ============================================
+             HOME SECTION
+             ============================================ -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <!-- Replace the image path with your own photo, e.g. images/me.jpg -->
+                <img src="https://via.placeholder.com/180x180/1e3a5f/ffffff?text=Photo"
+                     alt="Profile picture of Your Name"
+                     class="profile-pic">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="hero-name">Cardenas James Ashley</h1>
+                <p class="hero-role">Thirdyear BSIT Student</p>
+                <p class="hero-intro">
+                    I am an Information Technology student passionate about building
+                    useful websites and learning how software and data work together.
+                </p>
+                <a href="#about" class="btn btn-primary">Learn More About Me</a>
+            </div>
+        </section>
+
+        <!-- ============================================
+             ABOUT SECTION
+             ============================================ -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>
+                        Hi! I am a Bachelor of Science in Information Technology student at
+                        <strong>Bulacan Agricultural State College</strong>. I am currently learning
+                        programming, web development, and database management.
+                    </p>
+                    <p>
+                        I enjoy creating simple applications and websites, and I am always
+                        eager to learn new tools and technologies. My goal is to grow into
+                        a skilled IT professional who can build practical solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SKILLS SECTION
+             ============================================ -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <p class="section-subtitle">Technologies I am currently learning and practicing</p>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon">&lt;/&gt;</div>
+                        <h3>HTML</h3>
+                        <p>Structuring web pages with semantic elements.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">CSS</div>
+                        <h3>CSS</h3>
+                        <p>Styling layouts, colors, and responsive designs.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Adding interactivity and simple logic to web pages.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">PHP</div>
+                        <h3>PHP</h3>
+                        <p>Learning server-side scripting for dynamic websites.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">SQL</div>
+                        <h3>MySQL</h3>
+                        <p>Learning to design and query relational databases.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">NET</div>
+                        <h3>Networking</h3>
+                        <p>Understanding the basics of computer networks.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             PROJECTS SECTION
+             ============================================ -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">Some sample projects from my coursework</p>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>Student Management System</h3>
+                        <p>A system for managing student records, enrollment, and grades using PHP and MySQL.</p>
+                        <div class="project-tags">
+                            <span>PHP</span><span>MySQL</span><span>HTML/CSS</span>
+                        </div>
+                        <a href="#" class="project-link">View Project &rarr;</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Resort Booking System</h3>
+                        <p>A web application that lets users check room availability and make reservations.</p>
+                        <div class="project-tags">
+                            <span>PHP</span><span>MySQL</span><span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Project &rarr;</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>This website, built with plain HTML, CSS, and JavaScript to showcase my work.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Project &rarr;</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             CONTACT SECTION
+             ============================================ -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-subtitle">Feel free to reach out. I'd love to hear from you!</p>
+
+                <div class="contact-content">
+                    <!-- Replace with your real email address -->
+                    <a href="mailto:jamesashleycardenas@gmail" class="contact-email">
+
+                    </a>
+
+                    <div class="social-links">
+                        <!-- Replace each href with your own profile link -->
+                        <a href="https://github.com/jamesashleycardenas-hub" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
+                        <a href="https://www.linkedin.com/in/cardenas-james-ashley-601002444/" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+                        <a href="https://www.facebook.com/james.ashley.cardenas.759252" target="_blank" rel="noopener noreferrer" class="social-link">Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2026</span> Your Full Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">&uarr;</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
